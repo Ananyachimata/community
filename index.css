@@ -1,22 +1,22 @@
 .community
 {
+    background-color: beige;
     display:flex;
+    width: 500px;
+    height: 700px;
     flex-direction: column;
-    width: 410px;
-    height: 290px;
-    align-content: center;
-   
-    text-align-last: center;
     font-size: 10px;
     font-family: 'Karla', sans-serif; 
-     
+    justify-content: center;
+   padding-right: 500px;
+    padding-left: 500px;
+
 }
   .block1
 {
-    background-color:rgba(240, 234, 234, 0.993);
+    background-color:white;
     width: 360px;
     height: 100px;
-    text-align-last: left;
     padding-right: 20px;
     padding-left: 20px;
     border-top-left-radius: 20px 20px;
@@ -30,10 +30,8 @@
     height: 150px;
     text-align-last: left;
     padding-right: 200px;
-    border-bottom-left-radius: 20px 20px;
-    border-bottom-right-radius: 50px 20px;
-    
-2
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
 }
 #block3
 {
@@ -42,9 +40,7 @@
     padding: 20px;
     width: 360px;
     height: 150px;
-    border-bottom-left-radius: 20px 20px;
-    
-
+    border-bottom-left-radius: 10px 10px;
 }
 #block4
 {
@@ -58,14 +54,14 @@
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    border-bottom-right-radius: 20px 20px;
+    border-bottom-right-radius: 10px 10px;
 }
 #sign
 {
     background-color:rgb(151, 230, 6);
     text-align-last: center;
     width: 150px;
-    height: 50px;
+    height: 30px;
     color:white;
     border: 1px ;
     border-radius: 10px 10px;
