@@ -1,75 +1,115 @@
+
 .community
-{
-    background-color: beige;
-    display:flex;
-    width: 500px;
-    height: 700px;
+{    
+    background-color:rgb(227, 234, 236);
     flex-direction: column;
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Karla', sans-serif; 
+    display: flex;
     justify-content: center;
-   padding-right: 500px;
-    padding-left: 500px;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height:40vh;
+    position:absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0; 
+    box-shadow: 3px 3px 3px 3px rgb(248, 247, 247); 
+    padding: 500PX;
 
 }
-  .block1
+  .join-community
 {
     background-color:white;
-    width: 360px;
-    height: 100px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-top-left-radius: 20px 20px;
-    border-top-right-radius: 20px 20px;
+    width: 440px;
+    height: 110px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
 }
-.block2
+.Subscription-details
 {
     display: flex;
     flex-direction: row;
-    width: 400px;
-    height: 150px;
-    text-align-last: left;
-    padding-right: 200px;
+    width: 500px;
+    height: 250px;
     border-bottom-left-radius: 10px 10px;
     border-bottom-right-radius: 10px 10px;
 }
-#block3
+.Subscription
 {
-    background-color: rgba(57, 172, 180, 0.932);
+    background-color: rgb(3, 179, 179);
     text-align-last: left;
     padding: 20px;
-    width: 360px;
-    height: 150px;
     border-bottom-left-radius: 10px 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
 }
-#block4
+.why-us
 {
-    background-color: rgba(150, 240, 243, 0.932);
-    width: 360px;
-    height: 150px;
+    background-color: rgb(6, 212, 212);
     text-align-last: left;
     align-content: center;
     text-align-last: left;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
     border-bottom-right-radius: 10px 10px;
+    color: white;
+    font-size: 10px;
+    width: 250px;
 }
-#sign
+#forum
 {
-    background-color:rgb(151, 230, 6);
-    text-align-last: center;
-    width: 150px;
-    height: 30px;
-    color:white;
-    border: 1px ;
-    border-radius: 10px 10px;
+    text-align: left;
+    color:rgb(171, 247, 247);
 }
-#style
+.button            
+{
+    background-color: rgba(179, 252, 8, 0.959);
+    width:150px; 
+    height:30px;
+    padding-left:50px;
+    color:white;
+    border: 0px solid;
+    border-radius:8px ;
+    text-align: center;
+}
+#subtitle
+{
+    color: rgba(179, 252, 8, 0.959);
+    font-size: 10px;
+    padding-left: 5px;
+}
+#review
 {
     font-weight: lighter;
+    color:rgb(163, 160, 160);
 }
+#mntsub
+{
+ color:rgb(248, 246, 246);
+ font-size : 10px;
+}
+#title
+{
+    color:rgb(6, 243, 243);
+    font-size: 15px;
+    
+}
+#package
+{
+    color: rgb(139, 247, 247);
+    font-size: 10px;
+}
+
 
 
 
