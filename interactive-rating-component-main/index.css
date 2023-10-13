@@ -1,0 +1,103 @@
+.feedback
+{
+background-color: hsl(212, 16%, 24%);
+width:220px;
+height:200px;
+justify-content: center;
+border-top-left-radius: 30px 30px;
+border-top-right-radius: 30px 30px;
+border-bottom-left-radius: 30px 30px;
+border-bottom-right-radius: 30px 30px;
+padding-top: 10px;
+padding-left:10px;
+padding-bottom: 10px;
+padding-right: 10px;
+position:absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0; 
+    margin: auto;
+}
+#title
+{
+    color: white;
+    padding-left: 12px;
+    font-size:12px;
+}
+#paragraph
+{
+    color: hsl(210, 24%, 70%);
+    padding-left: 10px;
+    word-break: break-word;
+    font-size:10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.button
+{
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    justify-content: center;
+    height:30px;
+    width:200px;
+    color:rgb(248, 22, 22);
+    cursor: pointer;
+    cursor: hand; 
+    letter-spacing: 2px;
+    font-size: 8px;
+
+}
+.dot
+{
+    height: 15px;
+    width: 15px;
+    background-color: hsl(212, 11%, 30%);
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+    color:rgb(252, 232, 208);
+    
+}
+.dot_text
+{
+    display: table;
+    padding: 3px;
+    padding-left: 5px;
+}
+.dot_text1
+{
+    display: table;
+    padding: 3px;
+    font-size: 10px;
+    padding-left: 5px;
+}
+.dot_text2
+{
+    display: table;
+    padding: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    cursor: hand;
+    padding-left: 5px;
+}
+.dot_star
+{
+    display: table;
+    padding: 1px;
+    color: rgb(253, 125, 5);
+    font-size: 20px;
+}
+.four_dot_white
+{
+    background-color: hsl(208, 8%, 49%);
+}
+.four_dot_orange
+{
+    background-color: rgb(253, 125, 5);
+}
